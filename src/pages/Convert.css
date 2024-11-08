@@ -1,0 +1,12 @@
+/* src/pages/Convert.css */
+
+.braille-output {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    color: #333;
+    white-space: pre-wrap;
+  }
+  

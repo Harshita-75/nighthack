@@ -1,0 +1,44 @@
+/* src/App.css */
+
+/* Navbar Styling */
+.navbar-dark .navbar-nav .nav-link {
+  color: #f8f9fa;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e3e6ea;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.footer h5 {
+  font-weight: bold;
+  color: #ffc107;
+}
+
+.footer .footer-link {
+  color: #f8f9fa;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.footer .footer-link:hover {
+  color: #ffc107;
+}
+
+.footer .social-icons a {
+  color: #f8f9fa;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.footer .social-icons a:hover {
+  color: #ffc107;
+}

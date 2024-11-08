@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* About page background styling */
+.about-background {
+    background-image: url('https://clovernook.org/wp-content/uploads/2021/06/Hand-on-braille-sign.png'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the image fixed as you scroll */
+    padding: 80px 0; /* Adds spacing at the top and bottom */
+    min-height: 100vh; /* Full viewport height */
+    color: white; /* Text color for better visibility on the background */
+  }
+  
+  /* Content container styling */
+  .about-content {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay for readability */
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  /* Text styling */
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-features {
+    text-align: center;
+  }
+  
+  .about-features h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .about-features p {
+    font-size: 1rem;
+  }
+  /* styles.css */
+
+/* Features page background styling */
+.features-background {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20220117/pngtree-braille-alphabet-book-page-illness-language-world-braille-day-4-january-photo-image_42934872.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0; /* Spacing at the top and bottom */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Overlay content styling */
+  .features-content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for readability */
+    color: white;
+    padding: 50px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .features-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  /* Card styling */
+  .feature-card {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background for cards */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a lift effect */
+    margin-bottom: 30px;
+  }
+  
+  /* Card image styling */
+  .feature-card img {
+    border-radius: 8px 8px 0 0;
+    height: 200px;
+    object-fit: cover;
+  }
+  
